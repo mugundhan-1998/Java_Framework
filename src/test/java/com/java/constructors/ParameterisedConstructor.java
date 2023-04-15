@@ -2,9 +2,9 @@ package com.java.constructors;
 
 public class ParameterisedConstructor {
 
-	String name;
-	int number;
-	Integer num;
+	static String name;
+	static int number;
+	static Integer num;
 	
 	public ParameterisedConstructor(String name, int number, Integer num){
 		  this.name = name; 
@@ -18,7 +18,7 @@ public class ParameterisedConstructor {
 		  num = 21;
 	}
 	public void ParameterisedConstructor(String name, int number, Integer num){
-		  this.name = name; 
+		this.name = name; 
 		  this.number = number; 
 		  this.num = num;  
 		  System.out.println("this is para method");
