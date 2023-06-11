@@ -11,7 +11,7 @@ public class DefaultConstructor {
 		  number = 51; 
 		  num = 21;  
 		  }
-	
+
 	public static void main(String[] args) {
 		DefaultConstructor con = new DefaultConstructor();
 		System.out.println("The value of variable name is "+ con.name);

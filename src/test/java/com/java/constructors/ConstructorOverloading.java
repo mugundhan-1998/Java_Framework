@@ -21,6 +21,7 @@ public class ConstructorOverloading {
 		  num = 21;
 		  System.out.println("This is no arguement");
 	}
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ConstructorOverloading con = new ConstructorOverloading("john",3);
