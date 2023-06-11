@@ -30,6 +30,7 @@ public class NoArgumentConstructor {
 	con.NoArgumentConstructor();
 				System.out.println("The value of variable name is "+ con.name);
 				System.out.println("The value of variable number is "+ con.number);
-				System.out.println("The value of variable num is "+ con.num); }
-
+				System.out.println("The value of variable num is "+ con.num);
+		}
+	
 }
