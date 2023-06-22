@@ -11,4 +11,8 @@ public class Car {
 		System.out.println("Whenever engine is called, i supply power");
 	}
 	
+	public static void main(String[] args) {
+	Car car = new Car();
+	car.engine();                      
+}
 }
